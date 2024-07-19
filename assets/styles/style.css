@@ -20,38 +20,6 @@
   color: #C4C5BB;
 }
 
-.buttonGray, .deleteButtonGray, .buttonProfile, .buttonEdit {
-  border: 1px solid #818181;
-  background-color: transparent;
-  color: #818181;
-  letter-spacing: 2px;
-  padding: 3px 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.buttonGray:hover, .deleteButtonGray:hover, .buttonProfile:hover, .buttonEdit:hover {
-  background-color: white;
-  color: #141414;
-}
-
-.buttonProfile {
-  font-size: 12px;
-  background-color: #333333;
-  border: none;
-  color: white;
-  letter-spacing: 1px;
-  border-radius: 2px;
-}
-
-.buttonEdit {
-  font-size: 12px;
-}
-
-.deleteButtonGray:hover {
-  background-color: #8E0E16;
-  color: white;
-}
-
 header nav {
   font-size: 12px;
 }
@@ -93,18 +61,44 @@ footer i {
 .mainProfile p {
   font-size: 12px;
 }
-
-.form-check-input {
-  width: 1.5rem; /* Larghezza del checkbox */
-  height: 1.5rem; /* Altezza del checkbox */
-  background-color: transparent; /* Colore di sfondo quando non selezionato */
-  border: 1px solid #6c757d; /* Colore del bordo quando non selezionato */
-  position: relative; /* Necessario per il posizionamento dell'icona */
+.mainProfile .buttonGray, .mainProfile .deleteButtonGray, .mainProfile .buttonProfile, .mainProfile .buttonEdit {
+  border: 1px solid #818181;
+  background-color: transparent;
+  color: #818181;
+  letter-spacing: 2px;
+  padding: 3px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.mainProfile .buttonGray:hover, .mainProfile .deleteButtonGray:hover, .mainProfile .buttonProfile:hover, .mainProfile .buttonEdit:hover {
+  background-color: white;
+  color: #141414;
+}
+.mainProfile .buttonProfile {
+  font-size: 12px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+.mainProfile .buttonEdit {
+  font-size: 12px;
+}
+.mainProfile .deleteButtonGray:hover {
+  background-color: #8E0E16;
+  color: white;
+}
+.mainProfile .form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  position: relative;
   cursor: pointer;
 }
-
-.form-check-input:checked {
-  background-color: #6c757d; /* Colore di sfondo quando selezionato */
-  border-color: #6c757d; /* Colore del bordo quando selezionato */
+.mainProfile .form-check-input:checked {
+  background-color: #6c757d;
+  border-color: #6c757d;
   color: #6c757d;
 }/*# sourceMappingURL=style.css.map */

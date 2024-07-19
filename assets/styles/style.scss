@@ -24,40 +24,6 @@ $gray1 : #818181;
 
 
 
-.buttonGray, .deleteButtonGray, .buttonProfile, .buttonEdit {
-    border: 1px solid $gray1;
-    background-color: transparent;
-    color: $gray1;
-    letter-spacing: 2px;
-    padding: 3px 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    &:hover {
-        background-color: white;
-        color: #141414;
-    }
-}
-
-.buttonProfile {
-    font-size: 12px;
-    background-color: #333333;
-    border: none;
-    color: white;
-    letter-spacing: 1px;
-    border-radius: 2px;
-}
-
-.buttonEdit {
-    font-size: 12px;
-}
-
-.deleteButtonGray:hover{
-    background-color: #8E0E16;
-    color: white;
-}
-
-
-
 header {
     nav {
         font-size: 12px;
@@ -107,20 +73,53 @@ footer {
     p {
         font-size: 12px;
     }
+    .buttonGray, .deleteButtonGray, .buttonProfile, .buttonEdit {
+        border: 1px solid $gray1;
+        background-color: transparent;
+        color: $gray1;
+        letter-spacing: 2px;
+        padding: 3px 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        &:hover {
+            background-color: white;
+            color: #141414;
+        }
+    }
+    
+    .buttonProfile {
+        font-size: 12px;
+        background-color: #333333;
+        border: none;
+        color: white;
+        letter-spacing: 1px;
+        border-radius: 2px;
+    }
+    
+    .buttonEdit {
+        font-size: 12px;
+    }
+    
+    .deleteButtonGray:hover{
+        background-color: #8E0E16;
+        color: white;
+    }
+    
+    .form-check-input {
+        width: 1.5rem; 
+        height: 1.5rem; 
+        background-color: transparent; 
+        border: 1px solid #6c757d; 
+        position: relative; 
+        cursor: pointer;
+      }
+    
+      .form-check-input:checked {
+        background-color: #6c757d; 
+        border-color: #6c757d; 
+        color: #6c757d;
+      }
 }
 
-.form-check-input {
-    width: 1.5rem; /* Larghezza del checkbox */
-    height: 1.5rem; /* Altezza del checkbox */
-    background-color: transparent; /* Colore di sfondo quando non selezionato */
-    border: 1px solid #6c757d; /* Colore del bordo quando non selezionato */
-    position: relative; /* Necessario per il posizionamento dell'icona */
-    cursor: pointer;
-  }
 
-  .form-check-input:checked {
-    background-color: #6c757d; /* Colore di sfondo quando selezionato */
-    border-color: #6c757d; /* Colore del bordo quando selezionato */
-    color: #6c757d;
-  }
 
