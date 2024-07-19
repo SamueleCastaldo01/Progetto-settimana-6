@@ -16,6 +16,25 @@
   border-color: #818181;
 }
 
+.buttonGray, .deleteButtonGray {
+  border: 1px solid #818181;
+  background-color: transparent;
+  color: #818181;
+  letter-spacing: 2px;
+  padding: 3px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.buttonGray:hover, .deleteButtonGray:hover {
+  background-color: white;
+  color: #141414;
+}
+
+.deleteButtonGray:hover {
+  background-color: #8E0E16;
+  color: white;
+}
+
 header nav {
   font-size: 12px;
 }
@@ -53,4 +72,19 @@ footer i {
 .mainProfile {
   margin: 0 auto;
   width: 50%;
+}
+
+.form-check-input {
+  width: 1.5rem; /* Larghezza del checkbox */
+  height: 1.5rem; /* Altezza del checkbox */
+  background-color: transparent; /* Colore di sfondo quando non selezionato */
+  border: 1px solid #6c757d; /* Colore del bordo quando non selezionato */
+  position: relative; /* Necessario per il posizionamento dell'icona */
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #6c757d; /* Colore di sfondo quando selezionato */
+  border-color: #6c757d; /* Colore del bordo quando selezionato */
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
