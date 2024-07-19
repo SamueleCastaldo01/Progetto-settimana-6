@@ -20,7 +20,7 @@
   color: #C4C5BB;
 }
 
-.buttonGray, .deleteButtonGray {
+.buttonGray, .deleteButtonGray, .buttonProfile, .buttonEdit {
   border: 1px solid #818181;
   background-color: transparent;
   color: #818181;
@@ -29,9 +29,22 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.buttonGray:hover, .deleteButtonGray:hover {
+.buttonGray:hover, .deleteButtonGray:hover, .buttonProfile:hover, .buttonEdit:hover {
   background-color: white;
   color: #141414;
+}
+
+.buttonProfile {
+  font-size: 12px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+.buttonEdit {
+  font-size: 12px;
 }
 
 .deleteButtonGray:hover {
