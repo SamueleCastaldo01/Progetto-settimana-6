@@ -48,4 +48,9 @@ footer p {
 }
 footer i {
   font-size: 20px;
+}
+
+.mainProfile {
+  margin: 0 auto;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
