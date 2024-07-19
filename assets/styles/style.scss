@@ -18,6 +18,12 @@ $gray1 : #818181;
     border-color: $gray1;
 }
 
+.colorProfileMiniTitle {
+    color: #C4C5BB;
+}
+
+
+
 .buttonGray, .deleteButtonGray {
     border: 1px solid $gray1;
     background-color: transparent;
@@ -84,6 +90,9 @@ footer {
 .mainProfile {
     margin: 0 auto;
     width: 50%;
+    p {
+        font-size: 12px;
+    }
 }
 
 .form-check-input {
