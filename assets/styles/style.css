@@ -15,4 +15,13 @@ nav {
 .dropdown button {
   background-color: #000000;
   font-size: 11px;
+}
+
+.grigliaNet {
+  flex-wrap: nowrap;
+}
+
+footer {
+  padding-left: 20%;
+  padding-right: 20%;
 }/*# sourceMappingURL=style.css.map */
