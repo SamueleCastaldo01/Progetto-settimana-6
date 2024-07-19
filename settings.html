@@ -10,11 +10,74 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/style.css">
   </head>
-  <body>
+  <body class="bg-white1">
     
-    <div class="container-fluid px-lg-5">
+ 
+      <header>
+        <nav class="navbar navbar-expand-lg bg-dark1 px-5" data-bs-theme="dark">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/netflix_logo.png" alt="Bootstrap" width="90" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="settings.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tv Showns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recently Added</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My List</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    </div>
+                    <a class="nav-link color-gray ms-3" href="#">KIDS</a>
+                    <i class="fa-solid fa-bell text-white ms-3"></i>
+                    <div class="ms-3">
+                        <a href="profile.html">
+                            <img src="assets/img/kids_icon.png" alt="Bootstrap" width="35" height="35">
+                        </a>
+                        <i class="fa-solid fa-caret-down text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <div class="container-fluid px-lg-5">
+        <main class="mainSettings">
+          <h1 class="mt-5 fw-normal">Account</h1>
+          <hr>
+          <div class="row">
+            <div class="col-3">
+              <h5>MemberShip & Billing</h5>
+              <button class="text-black">Cancel Membership</button>
+            </div>
+            <div class="col-9">
+             <div class="d-flex align-content-center justify-content-between">
+              <p>student@strive.school</p>
+              <p>Change account email</p>
+             </div>
+              
+            </div>
+          </div>
+        </main>
     </div>
+
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

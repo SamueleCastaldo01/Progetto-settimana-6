@@ -10,6 +10,10 @@ $gray1 : #818181;
     background-color: #141414;
 }
 
+.bg-white1 {
+    background-color: #F3F3F3;
+}
+
 .color-gray {
     color: $gray1;
 }
@@ -121,5 +125,16 @@ footer {
       }
 }
 
+.mainSettings {
+    padding-left: 15%;
+    padding-right: 15%;
+    color: black;
+    div {
+        color: black
+    }
+    p {
+        color: black;
+    }
+}
 
 

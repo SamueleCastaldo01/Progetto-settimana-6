@@ -8,6 +8,10 @@
   background-color: #141414;
 }
 
+.bg-white1 {
+  background-color: #F3F3F3;
+}
+
 .color-gray {
   color: #818181;
 }
@@ -101,4 +105,16 @@ footer i {
   background-color: #6c757d;
   border-color: #6c757d;
   color: #6c757d;
+}
+
+.mainSettings {
+  padding-left: 15%;
+  padding-right: 15%;
+  color: black;
+}
+.mainSettings div {
+  color: black;
+}
+.mainSettings p {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
