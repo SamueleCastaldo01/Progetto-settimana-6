@@ -8,20 +8,34 @@
   background-color: #141414;
 }
 
-nav {
+.color-gray {
+  color: #818181;
+}
+
+header nav {
   font-size: 12px;
 }
 
-.dropdown button {
+main .dropdown button {
   background-color: #000000;
   font-size: 11px;
 }
-
-.grigliaNet {
+main .grigliaNet {
   flex-wrap: nowrap;
 }
 
 footer {
   padding-left: 20%;
   padding-right: 20%;
+  margin-top: 100px;
+}
+footer .colorFooter, footer p {
+  color: #818181;
+}
+footer p {
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+footer i {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -8,22 +8,44 @@
     background-color: #141414;
 }
 
-nav {
-    font-size: 12px;
+.color-gray {
+    color: #818181;
 }
 
-.dropdown {
-    button {
-        background-color: #000000;
-        font-size: 11px;
+header {
+    nav {
+        font-size: 12px;
     }
 }
 
-.grigliaNet {
-    flex-wrap: nowrap; 
+
+main {
+    .dropdown {
+        button {
+            background-color: #000000;
+            font-size: 11px;
+        }
+    }
+    .grigliaNet {
+        flex-wrap: nowrap; 
+    }
 }
+
+
 
 footer {
     padding-left: 20%;
     padding-right: 20%;
+    margin-top: 100px;
+    .colorFooter {
+        color: #818181;
+    }
+    p {
+        font-size: 11px;
+        @extend .colorFooter;
+        margin-bottom: 8px;
+    }
+    i {
+        font-size: 20px;
+    }
 }
