@@ -33,6 +33,12 @@ footer {
   padding-right: 20%;
   margin-top: 100px;
 }
+@media screen and (max-width: 992px) {
+  footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
 footer .colorFooter, footer p {
   color: #818181;
 }
