@@ -21,12 +21,12 @@
 }
 
 header nav {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 main .dropdown button {
   background-color: #000000;
-  font-size: 11px;
+  font-size: 13px;
 }
 main .grigliaNet {
   flex-wrap: nowrap;
