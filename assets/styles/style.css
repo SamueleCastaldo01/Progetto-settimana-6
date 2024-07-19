@@ -59,8 +59,14 @@ footer i {
 }
 
 .mainProfile {
-  margin: 0 auto;
-  width: 50%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+@media screen and (max-width: 992px) {
+  .mainProfile {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 .mainProfile p {
   font-size: 12px;
