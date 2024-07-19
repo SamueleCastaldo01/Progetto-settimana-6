@@ -32,29 +32,36 @@ main .dropdown button {
   background-color: #000000;
   font-size: 13px;
 }
-main .grigliaNet {
+
+.mainIndex .grigliaNet {
   flex-wrap: nowrap;
 }
+.mainIndex .zoom-image img {
+  transition: transform 0.4s ease-in-out;
+}
+.mainIndex .zoom-image:hover img {
+  transform: scale(1.4);
+}
 
-footer {
+.footerIndex {
   padding-left: 20%;
   padding-right: 20%;
   margin-top: 100px;
 }
 @media screen and (max-width: 992px) {
-  footer {
+  .footerIndex {
     padding-left: 10%;
     padding-right: 10%;
   }
 }
-footer .colorFooter, footer p {
+.footerIndex .colorFooter, .footerIndex p {
   color: #818181;
 }
-footer p {
+.footerIndex p {
   font-size: 11px;
   margin-bottom: 8px;
 }
-footer i {
+.footerIndex i {
   font-size: 20px;
 }
 
@@ -62,10 +69,16 @@ footer i {
   padding-left: 20%;
   padding-right: 20%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .mainProfile {
     padding-left: 10%;
     padding-right: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainProfile {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .mainProfile p {
