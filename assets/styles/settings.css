@@ -1,7 +1,19 @@
 .mainSettings {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 30%;
+  padding-right: 30%;
   color: black;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .mainSettings {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainSettings {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }
 .mainSettings div {
   color: black;
