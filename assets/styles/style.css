@@ -12,6 +12,10 @@
   color: #818181;
 }
 
+.border-gray1 {
+  border-color: #818181;
+}
+
 header nav {
   font-size: 12px;
 }
